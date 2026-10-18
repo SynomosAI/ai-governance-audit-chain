@@ -1,0 +1,51 @@
+# ai-governance-audit-chain — 完整文本 / Full text
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`ai-governance-audit-chain` 是一个 Agent Skill，为任何 AI 系统 / 智能体生成对齐 ISO/IEC 42001（AI 管理体系 AIMS）与 NIST AI RMF 的可审计证据链。它是 XCGS 治理系统的**取证闭环件**：治理框架（AI 护照机制 / XCGS / A³ 法则 / AI 世界共生论）此前缺一块「可审计证据链」，本 skill 补上。
+
+一句话：理念再好，审计员只认证据。本 skill 给的就是那套证据工件 + 条款映射 + 自检清单。
+
+## 解决什么问题
+
+1. AI 决策、变更、监督、事件没有标准化留痕，审计时拿不出证据。
+2. 已有治理框架与 ISO/IEC 42001、NIST AI RMF 之间缺可采信的证据映射。
+3. 模型 / 智能体上线前缺一份发布级取证自检清单。
+
+## 六类证据工件
+
+1. 决策日志 Decision Log：记录每次 AI 决策（decision_id + actor_agent 身份码）。
+2. 风险登记册 Risk Register：登记与跟踪风险（likelihood/impact/treatment/residual）。
+3. 模型卡 Model Card：模型/版本放行依据（intended_use/data_provenance/limitations/sign_off）。
+4. 变更记录 Change Record：变更留痕（before/after/rollback/approver）。
+5. 人类监督证明 Human Oversight Proof：证明高风险动作被人审（oversight_type/gate_result）。
+6. 事件处置台账 Incident Ledger：事件闭环 CAPA（root_cause/corrective）。
+
+条款映射：风险登记册↔42001 6.1 / GOVERN·MAP；决策日志+变更记录↔8.1 / MANAGE；事件台账↔9.1 / MEASURE；监督证明+模型卡↔9.2 / GOVERN；CAPA↔10.1。
+
+## 快速开始
+
+```bash
+git clone --depth 1 https://github.com/SynomosAI/ai-governance-audit-chain.git
+cd ai-governance-audit-chain
+# cp -r . ~/.workbuddy/skills/ai-governance-audit-chain/
+```
+
+## 触发词
+
+AI 审计证据 / 可审计证据链 / ISO 42001 证据 / AI 治理取证 / 合规取证 / 审计底稿 / AI 管理体系 / NIST AI RMF 证据 / AI audit evidence / auditable evidence chain。
+
+## 许可与权利
+
+MIT 许可。SKILL.md 权属：© 2026 注册老炮@MedXpert。完整条款见 `LICENSE.md`。
+
+## 边界
+
+本仓只提供**证据模板与方法**，不替代真实的认证审核；具体字段值需由使用方按自身系统填写。外部标准为公开资料转述，正式引用前请独立核实。
+
+## 链接
+
+- 仓库: https://github.com/SynomosAI/ai-governance-audit-chain
+- 生态全景: https://github.com/SynomosAI/synomosal-skills
