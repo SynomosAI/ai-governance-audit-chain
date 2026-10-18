@@ -1,0 +1,19 @@
+# ai-governance-audit-chain
+
+> Auditable evidence-chain templates for AI systems, aligned with ISO/IEC 42001 (AIMS) and NIST AI RMF: six artifact templates (decision log, risk register, model card, change record, human-oversight proof, incident ledger) + clause mapping + forensics self-check.
+
+An Agent Skill in the SynomosAI ecosystem. Turns the "AI passport / XCGS governance" stance into an auditable, certifiable, externally defensible evidence base.
+
+## Core
+
+- [SKILL.md](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/SKILL.md): skill main file (YAML frontmatter + full method and templates)
+- [README.md](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/README.md): bilingual overview and quick start
+- [LICENSE.md](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/LICENSE.md): MIT
+
+## Optional
+
+- [README.en.md](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/README.en.md): English overview
+- [AGENTS.md](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/AGENTS.md): guidance for AI agents
+- [llms-full.txt](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/llms-full.txt): full text
+- [SECURITY.md](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/SECURITY.md): security policy
+- [CODEOWNERS](https://github.com/SynomosAI/ai-governance-audit-chain/blob/main/CODEOWNERS): content owners
