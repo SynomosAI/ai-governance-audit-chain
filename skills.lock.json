@@ -1,0 +1,23 @@
+{
+  "algorithm": "sha256(sorted relpath + NUL + file sha256, per line)",
+  "history": [
+    {
+      "root_digest": "41c7dfb7a0b82db70b9ee851d9720eb9644c0074376900f8c1b5e83428d5a85f",
+      "sequence": 1
+    }
+  ],
+  "root_digest": "41c7dfb7a0b82db70b9ee851d9720eb9644c0074376900f8c1b5e83428d5a85f",
+  "schema_version": 2,
+  "sequence": 1,
+  "skill_count": 1,
+  "skills": [
+    {
+      "declared_name": "ai-governance-audit-chain",
+      "digest": "022939c9df8df0087d39dca6c1c8f4e8bcb38505b93e8f9a75fa823d0961b047",
+      "file_count": 1,
+      "has_description": true,
+      "path": "."
+    }
+  ],
+  "validated_against": []
+}
